@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:white;
+}
+/* ---------nav var start--------- */
+nav{
+    background: #333;
+    opacity: .5;
+    padding: 20px 0;
+}
+.navbar-nav{
+    margin: 0 250px;
+
+}
+.navbar-nav li{
+    font-size: 18px;
+    font-family:open sans-serif;
+    margin-right: 13px;
+    
+}
+.navbar-nav li a{
+    color: var(--primary-color)!important;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+.navbar-nav li a:hover{
+    color: orange!important;
+}
+
+/* -----------nav var end------- */
+#baner{
+    background: url(../images/2.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/* --------Clubs Ranking cards starts-------- */
+#content-info{
+    position: relative;
+}
+
+.club-ranking-bg{
+    background: #26282b;
+}
+.ranking-card{
+    height: 450px;
+
+}
+.ranking-card h5{
+    color: #fff;
+    font-size: 16px;
+}
+.position{
+    padding-right: 2px;
+    color: var(--primary-color);
+}
+.ranking-card ul li{
+    list-style: none;
+    border-bottom: 1px solid #222;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.ranking-card ul{
+    padding: 10px 20px;
+    background: #4b4e51;
+}
+.ranking-card ul li a{
+    text-decoration: none;
+    color: white;
+}
+.ranking-card ul li a img{
+    width: 15%;
+    margin-right: 15px;
+}
+.points{
+    float: right;
+    color: white;
+}
+.club-ranking-cards{
+    padding: 30px 10px 10px 20px;
+}
+.time-counter h4{
+    display: flex;
+    justify-content: center;
+    font-size: .9rem;
+    color: #666;
+    font-weight: normal;
+    padding: 10px 0;
+    border-bottom: 1px solid #dedede;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.counter span{
+    padding: 0px 10px;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: auto 5px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color: #232323;
+    text-align: center;
+}
+.counter span small{
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #666;
+}
+.post-option{
+    padding: 15px 10px;
+    border-bottom: 1px solid #dedede;
+}
+.post-option ul{
+    list-style: none;
+    display: flex;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.post-option ul li{
+    margin-right: 10px;
+    font-size: 13px;
+}
+.lists-group{
+    padding: 30px 0px;
+}
+.lists-group p{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.lists-group .vs{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#content-info .btn{
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    margin-top: 30px;
+    /* position: relative; */
+    /* height: auto; */
+    padding: 10px 0px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+#section-black{
+    padding-top: 70px;
+}
+.black-section{
+    background: #222;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding{
+    padding: 100px 0px;
+}
+.item-featured{
+    text-align: center;
+}
+.item-featured h3{
+    color: white;
+}
+.item-featured p{
+    color: #808080;
+}
+.item-featured a{
+    text-decoration: none;
+    color: #fff;
+}
+#raider{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.raider-card{
+    overflow: hidden;
+    position: relative;
+    
+}
+.raider-card img{
+    width: 100%;
+    transition: .5s;
+}
+.raider-card::after{
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+#raider .raider-card:hover img{
+    transform: scale(1.1);
+}
+#raider .raider-card:hover::after{
+    background: rgba(0, 0, 0, 0.4);;
+}
+
+
+
+
+
+#all-star-section{
+    background: #18191B;
+    padding: 100px 0;
+}
+.world-cup-text{
+    padding: 30px 0;
+    border-bottom: 1px solid #333;
+    margin-bottom: 30px;
+}
+.world-cup-text h3{
+    color: white;
+}
+.world-cup-text p{
+    color: #898080;
+}
+.list-item ul li{
+    list-style:none; 
+    margin-bottom: 10px;
+    
+}
+.list-item ul{
+    padding-left: 0;
+}
+.list-item ul li a{
+   text-decoration: none;
+   color: #666;
+   transition: all .5s ease;
+}
+.list-item ul li a:hover{
+    color: #01d099;
+}
+.all-star-image{
+    position: relative;
+    transition: all .7s ease;
+    margin-bottom: 30px;
+}
+.all-star-image::after{
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+.all-star-image:hover{
+    transform: scale(1.1);
+}
+.all-star-image:hover::after{
+    background: rgba(0, 0, 0, 0.4); ;
+}
+.all-star-image img{
+    width: 100%;
+    height: 215px;
+}
+.all-star-image p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 22px;
+    z-index: 2;
+}
+#banaer{
+    background-image: url('../images/colombia-man.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+}
+.banaer::before{
+    content: '';
+    position: absolute;
+    height: 500px;
+    background: #3f363695;
+    opacity: .5;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.banaer-text{
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+   position: relative;
+}
+.banaer-text span{
+    color: #01d099;
+}
+.banaer-box{
+    position: relative;
+}
+.banaer-box p{
+    border: 1px solid #dedede;
+    padding: 30px 15px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+}
+.banaer-box p::after{
+    content: '';
+    position: absolute;
+    border: 15px solid #dedede;
+    bottom: -30px;
+    left: 28px;
+    height: 0;
+    width: 0;
+    border-color: #dedede transparent transparent transparent;
+}
+.banaer-box img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px 10px 0 20px;
+    float: left;
+}
+
+.banaer-box h6 {
+    margin-top: 34px;
+    width: 60%;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+.banaer-box a{
+    text-decoration: none;
+    color: #01d099;
+    font-style: italic;
+    transition: all .3s ease;
+}
+
+.banaer-box a:hover{
+    color: #01d099;
+    opacity: .8;
+}
