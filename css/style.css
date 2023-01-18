@@ -7,7 +7,8 @@
 }
 /* ---------nav var start--------- */
 nav{
-    background: #333;
+    background: #333
+    ;
     opacity: .5;
     padding: 20px 0;
 }
@@ -19,7 +20,7 @@ nav{
     font-size: 18px;
     font-family:open sans-serif;
     margin-right: 13px;
-    
+
 }
 .navbar-nav li a{
     color: var(--primary-color)!important;
@@ -162,7 +163,7 @@ nav{
 
 
 
-
+/* --------balck section start--------- */
 #section-black{
     padding-top: 70px;
 }
